@@ -35,6 +35,6 @@ car2 = Car("Honda", "Civic", 2018, 18000)
 showroom.add_car(car1)
 showroom.add_car(car2)
 
-print(showroom)  # Показує доступні авто
-showroom.sell_car(car1)  # Продає авто
-print(showroom)  # Показує авто після продажу
+print(showroom)
+showroom.sell_car(car1)
+print(showroom)
